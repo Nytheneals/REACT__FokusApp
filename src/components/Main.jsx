@@ -1,16 +1,11 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
+import React, {Component} from 'react';
+import {Router, Route, IndexRoute, Link} from 'react-router';
 
 // COMPONENTS
-// import PhotoGrid from "./PhotoGrid";
-// import SingleView from "./SingleView";
-// CSS
-import '../css/_animations.css';
-import '../css/_normalise.css';
-import '../css/_style.css';
-import '../css/_topography.css';
+import PhotoGrid from "./PhotoGrid";
+import SingleView from "./SingleView";
 
-// COMPONENT
+// MAIN COMPONENT
 class Main extends Component {
   render() {
     return (
@@ -28,5 +23,6 @@ class Main extends Component {
 
 export default Main;
 
-// {React.cloneElement(this.props.children, this.props)}
-// THIS CLONES THE COMPONENTS THAT ARE THE CHILDREN OF THE MAIN COMPONENT INCLUDING THERE PARTICULAR PROPS.
+// {React.cloneElement(this.props.children, this.props)} THIS CLONES THE
+// COMPONENTS THAT ARE THE CHILDREN OF THE MAIN COMPONENT INCLUDING THERE
+// PARTICULAR PROPS.
