@@ -17,7 +17,6 @@ import SingleView from "./components/SingleView";
 // DEPENDENCIES(REACT-ROUTER)
 import {Router, route} from 'react-router-dom'
 // import {Router, Route, IndexRoute, browserHistory} from 'react-router-dom';
-
 const router = (
  <Router>
   <Route path="/" component ={Main}>
