@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-class PhotoGrid extends Component {
+class Single extends Component {
   render() {
     return (
       <div>
@@ -10,4 +10,4 @@ class PhotoGrid extends Component {
   }
 }
 
-export default PhotoGrid;
+export default Single;
