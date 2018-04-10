@@ -11,11 +11,11 @@ class Main extends Component {
     return (
       <Router>
         <div>
-          <Link to="/single">
-            <h1>Main </h1>
-          </Link>
-          <PhotoGrid />
-          <Route path="/single" component={Single} />
+          <h1>
+            <Link to="/">Gram it</Link>
+          </h1>
+          <Route exact path="/" component={PhotoGrid} />
+          <Route path="/view/:postId" component={Single} />
         </div>
       </Router>
     );

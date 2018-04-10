@@ -2,11 +2,7 @@ import React, { Component } from "react";
 
 class Single extends Component {
   render() {
-    return (
-      <div>
-        <h1>Single Component</h1>
-      </div>
-    );
+    return <div className="single-photo">Single Component</div>;
   }
 }
 
