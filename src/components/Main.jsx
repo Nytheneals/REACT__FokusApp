@@ -1,12 +1,17 @@
 import React, { Component } from "react";
-import { Link } from "react-router";
+
+import "../styles/_style.css";
+
+import PhotoGrid from "./PhotoGrid";
+import Single from "./Single";
 
 class Main extends Component {
   render() {
     return (
       <div>
-        <Link to="/">Reduxstagram </Link>
         <h1>Main Component</h1>
+        <PhotoGrid />
+        <Single />
       </div>
     );
   }
