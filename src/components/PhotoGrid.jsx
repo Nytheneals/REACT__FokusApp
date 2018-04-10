@@ -4,7 +4,7 @@ class PhotoGrid extends Component {
   render() {
     return (
       <div>
-        <h1>Main Component</h1>
+        <h1>PhotoGrid</h1>
       </div>
     );
   }

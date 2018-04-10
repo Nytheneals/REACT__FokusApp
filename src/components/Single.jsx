@@ -4,7 +4,7 @@ class Single extends Component {
   render() {
     return (
       <div>
-        <h1>Main Component</h1>
+        <h1>Single Component</h1>
       </div>
     );
   }
