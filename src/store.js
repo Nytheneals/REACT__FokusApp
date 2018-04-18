@@ -9,6 +9,7 @@ import comments from "./data/comments";
 import posts from "./data/posts";
 
 // CREATE AN OBJECT FOR THE DEFAULT DATA
+// DUMMY DATA
 const defaultState = {
   posts: posts,
   comments: comments
