@@ -2,7 +2,7 @@ import { createStore, compose } from "redux";
 import { syncHistoryWithStore } from "react-router-redux";
 import { browserHistory } from "react-router";
 
-// IMPORT THE ROOT REDUCERS
+// IMPORT THE ROOT REDUCER
 import rootReducer from "./reducers/index";
 
 import comments from "./data/comments";

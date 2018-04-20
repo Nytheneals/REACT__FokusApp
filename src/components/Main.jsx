@@ -11,9 +11,9 @@ class Main extends Component {
     return (
       <Router>
         <div>
-          <h1>
-            <Link to="/">Gram it</Link>
-          </h1>
+          <Link to="/">
+            <h1>Gram it</h1>
+          </Link>
           <Route exact path="/" component={PhotoGrid} />
           <Route path="/view/:postId" component={Single} />
         </div>
